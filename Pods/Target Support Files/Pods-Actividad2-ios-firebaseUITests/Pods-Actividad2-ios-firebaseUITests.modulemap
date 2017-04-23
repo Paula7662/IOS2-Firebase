@@ -1,0 +1,6 @@
+framework module Pods_Actividad2_ios_firebaseUITests {
+  umbrella header "Pods-Actividad2-ios-firebaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

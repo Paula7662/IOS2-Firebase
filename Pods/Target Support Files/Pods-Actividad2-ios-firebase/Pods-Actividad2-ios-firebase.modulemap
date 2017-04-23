@@ -1,0 +1,6 @@
+framework module Pods_Actividad2_ios_firebase {
+  umbrella header "Pods-Actividad2-ios-firebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
