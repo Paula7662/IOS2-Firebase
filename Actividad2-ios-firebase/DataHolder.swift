@@ -12,22 +12,25 @@ import FirebaseDatabase
 import FirebaseStorage
 
 class DataHolder: NSObject {
-    //Declaración de un objeto que nos servirá para llamarlo desde otras clases
-    //Para llamarlo desde otra clase, tendremos que escribir DataHolder.saredInstance
     static let sharedInstance: DataHolder = DataHolder()
+    //Localizacion
+    var locationAdmin:LocationAdmin?
     
     var firDataBaseref: FIRDatabaseReference!
     var arLibro:Array<Libro>?
-    //var delegate:DataHolderDelegate?
-    var firStorage:FIRStorage?
+    var delegate:DataHolderDelegate?
     // Create a storage reference from our storage service
     var storageRef:FIRStorageReference?
+    var firStorage:FIRStorage?
     
     func initFirebase(){
         FIRApp.configure()
         firDataBaseref = FIRDatabase.database().reference()
         firStorage = FIRStorage.storage()
         storageRef = firStorage?.reference()
+    }
+    func initLocationAdmin(){
+        locationAdmin = LocationAdmin()
     }
     
     func statusDataHolder(delegate:DataHolderDelegate?) {

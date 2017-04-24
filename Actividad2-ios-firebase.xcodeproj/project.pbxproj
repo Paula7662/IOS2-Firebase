@@ -10,6 +10,13 @@
 		7CB1C8C2AAA257D621564C63 /* Pods_Actividad2_ios_firebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B25545F3E5BF5519A27187 /* Pods_Actividad2_ios_firebaseUITests.framework */; };
 		8F607436AEF8BD2BBF2B2146 /* Pods_Actividad2_ios_firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7A692A5F6F34A116F77DB5 /* Pods_Actividad2_ios_firebase.framework */; };
 		A094BC2940172BEE70A7A858 /* Pods_Actividad2_ios_firebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDFF5EA63DD15D20A8C03B8 /* Pods_Actividad2_ios_firebaseTests.framework */; };
+		D41DBF5A1EADFAB800D9D95B /* VCItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41DBF591EADFAB800D9D95B /* VCItem2.swift */; };
+		D41DBF5C1EADFC4100D9D95B /* CVCCelda2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41DBF5B1EADFC4100D9D95B /* CVCCelda2.swift */; };
+		D41DBF5E1EAE4D8800D9D95B /* Autores.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41DBF5D1EAE4D8800D9D95B /* Autores.swift */; };
+		D41DBF621EAE555200D9D95B /* bookmark1600.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF611EAE555200D9D95B /* bookmark1600.png */; };
+		D41DBF661EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF651EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png */; };
+		D41DBF6A1EAE575300D9D95B /* hol.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF691EAE575300D9D95B /* hol.png */; };
+		D41DBF6C1EAE59E700D9D95B /* libros2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF6B1EAE59E700D9D95B /* libros2.png */; };
 		D445A3941EA7F2C5008497B5 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A3931EA7F2C5008497B5 /* DataHolder.swift */; };
 		D445A3961EA7F346008497B5 /* VCRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A3951EA7F346008497B5 /* VCRegistrar.swift */; };
 		D445A39A1EA936FF008497B5 /* VCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A3991EA936FF008497B5 /* VCItem.swift */; };
@@ -24,7 +31,7 @@
 		D47D493B1EA7EB0900315C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47D49391EA7EB0900315C89 /* LaunchScreen.storyboard */; };
 		D47D49461EA7EB0900315C89 /* Actividad2_ios_firebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D49451EA7EB0900315C89 /* Actividad2_ios_firebaseTests.swift */; };
 		D47D49511EA7EB0900315C89 /* Actividad2_ios_firebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D49501EA7EB0900315C89 /* Actividad2_ios_firebaseUITests.swift */; };
-		D47D49601EA7EB2900315C89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47D495F1EA7EB2900315C89 /* MapKit.framework */; };
+		D47D49601EA7EB2900315C89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47D495F1EA7EB2900315C89 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		D47D49621EA7EC3600315C89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47D49611EA7EC3600315C89 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +61,13 @@
 		B8115AC0CB057E1F62C5BE3C /* Pods-Actividad2-ios-firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actividad2-ios-firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Actividad2-ios-firebase/Pods-Actividad2-ios-firebase.release.xcconfig"; sourceTree = "<group>"; };
 		B9B8CAED53D0E2B4B2C7D2FE /* Pods-Actividad2-ios-firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actividad2-ios-firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Actividad2-ios-firebase/Pods-Actividad2-ios-firebase.debug.xcconfig"; sourceTree = "<group>"; };
 		BF7A692A5F6F34A116F77DB5 /* Pods_Actividad2_ios_firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Actividad2_ios_firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41DBF591EADFAB800D9D95B /* VCItem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCItem2.swift; sourceTree = "<group>"; };
+		D41DBF5B1EADFC4100D9D95B /* CVCCelda2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCCelda2.swift; sourceTree = "<group>"; };
+		D41DBF5D1EAE4D8800D9D95B /* Autores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autores.swift; sourceTree = "<group>"; };
+		D41DBF611EAE555200D9D95B /* bookmark1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmark1600.png; path = img/bookmark1600.png; sourceTree = SOURCE_ROOT; };
+		D41DBF651EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Emojione_1F4DA-CCLicense4.png"; path = "img/Emojione_1F4DA-CCLicense4.png"; sourceTree = SOURCE_ROOT; };
+		D41DBF691EAE575300D9D95B /* hol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hol.png; path = img/hol.png; sourceTree = SOURCE_ROOT; };
+		D41DBF6B1EAE59E700D9D95B /* libros2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = libros2.png; path = ../img/libros2.png; sourceTree = "<group>"; };
 		D445A3931EA7F2C5008497B5 /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		D445A3951EA7F346008497B5 /* VCRegistrar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRegistrar.swift; sourceTree = "<group>"; };
 		D445A3991EA936FF008497B5 /* VCItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCItem.swift; sourceTree = "<group>"; };
@@ -111,7 +125,7 @@
 		D47D49241EA7EB0900315C89 = {
 			isa = PBXGroup;
 			children = (
-				D47D492F1EA7EB0900315C89 /* Actividad2-ios-firebase */,
+				D47D492F1EA7EB0900315C89 /* , */,
 				D47D49441EA7EB0900315C89 /* Actividad2-ios-firebaseTests */,
 				D47D494F1EA7EB0900315C89 /* Actividad2-ios-firebaseUITests */,
 				D47D492E1EA7EB0900315C89 /* Products */,
@@ -130,9 +144,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D47D492F1EA7EB0900315C89 /* Actividad2-ios-firebase */ = {
+		D47D492F1EA7EB0900315C89 /* , */ = {
 			isa = PBXGroup;
 			children = (
+				D41DBF691EAE575300D9D95B /* hol.png */,
+				D41DBF651EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png */,
+				D41DBF611EAE555200D9D95B /* bookmark1600.png */,
+				D41DBF6B1EAE59E700D9D95B /* libros2.png */,
 				D47D49611EA7EC3600315C89 /* GoogleService-Info.plist */,
 				D47D49301EA7EB0900315C89 /* AppDelegate.swift */,
 				D47D49321EA7EB0900315C89 /* ViewController.swift */,
@@ -142,12 +160,16 @@
 				D47D493C1EA7EB0900315C89 /* Info.plist */,
 				D445A3931EA7F2C5008497B5 /* DataHolder.swift */,
 				D445A3951EA7F346008497B5 /* VCRegistrar.swift */,
-				D445A3991EA936FF008497B5 /* VCItem.swift */,
 				D445A39B1EA98A2B008497B5 /* TVCCelda1.swift */,
 				D445A39D1EAA37B4008497B5 /* Libro.swift */,
 				D445A39F1EAAB518008497B5 /* LocationAdmin.swift */,
 				D45D7BF21EAB8E3200AB59B6 /* VCMapa.swift */,
+				D445A3991EA936FF008497B5 /* VCItem.swift */,
+				D41DBF591EADFAB800D9D95B /* VCItem2.swift */,
+				D41DBF5B1EADFC4100D9D95B /* CVCCelda2.swift */,
+				D41DBF5D1EAE4D8800D9D95B /* Autores.swift */,
 			);
+			name = ",";
 			path = "Actividad2-ios-firebase";
 			sourceTree = "<group>";
 		};
@@ -316,7 +338,11 @@
 			files = (
 				D47D493B1EA7EB0900315C89 /* LaunchScreen.storyboard in Resources */,
 				D47D49621EA7EC3600315C89 /* GoogleService-Info.plist in Resources */,
+				D41DBF621EAE555200D9D95B /* bookmark1600.png in Resources */,
 				D47D49381EA7EB0900315C89 /* Assets.xcassets in Resources */,
+				D41DBF6C1EAE59E700D9D95B /* libros2.png in Resources */,
+				D41DBF6A1EAE575300D9D95B /* hol.png in Resources */,
+				D41DBF661EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png in Resources */,
 				D47D49361EA7EB0900315C89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,9 +507,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D445A3A01EAAB518008497B5 /* LocationAdmin.swift in Sources */,
+				D41DBF5C1EADFC4100D9D95B /* CVCCelda2.swift in Sources */,
 				D445A39E1EAA37B4008497B5 /* Libro.swift in Sources */,
+				D41DBF5E1EAE4D8800D9D95B /* Autores.swift in Sources */,
 				D445A39A1EA936FF008497B5 /* VCItem.swift in Sources */,
 				D45D7BF31EAB8E3200AB59B6 /* VCMapa.swift in Sources */,
+				D41DBF5A1EADFAB800D9D95B /* VCItem2.swift in Sources */,
 				D445A3961EA7F346008497B5 /* VCRegistrar.swift in Sources */,
 				D47D49331EA7EB0900315C89 /* ViewController.swift in Sources */,
 				D445A39C1EA98A2B008497B5 /* TVCCelda1.swift in Sources */,

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet var txtContraseña:UITextField?
     @IBOutlet var btnLogin:UIButton?
     @IBOutlet var btnRegistro:UIButton?
-   // @IBOutlet var txtConsola:UITextView?
+    @IBOutlet var txtConsola:UITextView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,14 +29,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionButtonLogin(){
-        //txtConsola?.text="Hola Mundo"
         //txtConsola?.text=String(format: "USUARIO: %@ CONTRASEÑA: %@", (txtfUser?.text)!, (txtfPassword?.text)!)
         
         FIRAuth.auth()?.signIn(withEmail: (txtEmail?.text)!, password: (txtContraseña?.text)!) { (user, error) in
             if(error==nil){
                 self.performSegue(withIdentifier: "trAplicacion", sender: self)
             }else{
-               // self.txtConsola?.text = error?.localizedDescription
+                self.txtConsola?.text = error?.localizedDescription
+                //self.txtConsola?.text="Usuario o contraseña incorrectos."
+                self.txtConsola?.text=String(format: "USUARIO: %@ CONTRASEÑA: %@", (self.txtEmail?.text)!, (self.txtContraseña?.text)!)
                 print("Error al iniciar sesión: ",error!)
             }
             

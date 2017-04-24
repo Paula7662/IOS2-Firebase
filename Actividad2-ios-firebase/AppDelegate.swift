@@ -12,10 +12,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     var window: UIWindow?
+    var numero:UInt=20
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         DataHolder.sharedInstance.initFirebase()
+        DataHolder.sharedInstance.initLocationAdmin()
         return true
     }
     

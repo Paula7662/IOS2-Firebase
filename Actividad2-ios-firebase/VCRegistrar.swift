@@ -15,7 +15,7 @@ class VCRegistrar: UIViewController {
     @IBOutlet var txtRepetirContraseña:UITextField?
     @IBOutlet var btnRegistro:UIButton?
     @IBOutlet var btnCancelar:UIButton?
-   // @IBOutlet var txtConsola:UITextView?
+    @IBOutlet var txtConsola:UITextView?
     
     
     override func viewDidLoad() {
@@ -29,24 +29,13 @@ class VCRegistrar: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
     @IBAction func actionButtonRegister(){
         FIRAuth.auth()?.createUser(withEmail: (txtEmail?.text)!, password: (txtContraseña?.text)!) { (user, error) in
             if(error==nil){
-                self.performSegue(withIdentifier: "trRegistro", sender: self)
+                self.performSegue(withIdentifier: "trLogin", sender: self)
             }else{
-              //  self.txtConsola?.text = error?.localizedDescription
-                //self.txtConsola?.text="Compruebe que el formato de email sea correcto y que la contraseña contenga como mínimo 6 caracteres."
+                self.txtConsola?.text = error?.localizedDescription
+                self.txtConsola?.text="Compruebe que el formato de email sea correcto, que tenga acceso a internet o que la contraseña contenga mínimo 6 caracteres."
                 print("Error al iniciar sesión: ",error!)
             }
         }

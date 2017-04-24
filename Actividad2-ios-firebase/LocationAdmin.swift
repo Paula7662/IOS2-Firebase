@@ -5,7 +5,7 @@
 //  Created by Paula Valenciano sausor on 21/04/2017.
 //  Copyright © 2017 u-tad. All rights reserved.
 //
-/*
+
 import UIKit
 import CoreLocation
 
@@ -30,4 +30,4 @@ class LocationAdmin: NSObject, CLLocationManagerDelegate {
 protocol LocationAdminDelegate{
     func localizacionActualizada(coordenada:CLLocationCoordinate2D)
 }
-*/
+
