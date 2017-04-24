@@ -31,13 +31,18 @@ class VCRegistrar: UIViewController {
     
     @IBAction func actionButtonRegister(){
         FIRAuth.auth()?.createUser(withEmail: (txtEmail?.text)!, password: (txtContraseña?.text)!) { (user, error) in
-            if(error==nil){
+            
+           
+            if(error==nil) {
                 self.performSegue(withIdentifier: "trLogin", sender: self)
+                
+                
             }else{
                 self.txtConsola?.text = error?.localizedDescription
                 self.txtConsola?.text="Compruebe que el formato de email sea correcto, que tenga acceso a internet o que la contraseña contenga mínimo 6 caracteres."
                 print("Error al iniciar sesión: ",error!)
             }
-        }
+            
+      }
     }
 }

@@ -18,6 +18,7 @@ class DataHolder: NSObject {
     
     var firDataBaseref: FIRDatabaseReference!
     var arLibro:Array<Libro>?
+    var arAutor:Array<Autores>?
     var delegate:DataHolderDelegate?
     // Create a storage reference from our storage service
     var storageRef:FIRStorageReference?

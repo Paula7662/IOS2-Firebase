@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             }else{
                 self.txtConsola?.text = error?.localizedDescription
                 //self.txtConsola?.text="Usuario o contraseña incorrectos."
-                self.txtConsola?.text=String(format: "USUARIO: %@ CONTRASEÑA: %@", (self.txtEmail?.text)!, (self.txtContraseña?.text)!)
+                self.txtConsola?.text=String(format: "usuario: %@ o contraseña: %@ incorrectos", (self.txtEmail?.text)!, (self.txtContraseña?.text)!)
                 print("Error al iniciar sesión: ",error!)
             }
             

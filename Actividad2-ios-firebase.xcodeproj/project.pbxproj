@@ -12,11 +12,11 @@
 		A094BC2940172BEE70A7A858 /* Pods_Actividad2_ios_firebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDFF5EA63DD15D20A8C03B8 /* Pods_Actividad2_ios_firebaseTests.framework */; };
 		D41DBF5A1EADFAB800D9D95B /* VCItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41DBF591EADFAB800D9D95B /* VCItem2.swift */; };
 		D41DBF5C1EADFC4100D9D95B /* CVCCelda2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41DBF5B1EADFC4100D9D95B /* CVCCelda2.swift */; };
-		D41DBF5E1EAE4D8800D9D95B /* Autores.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41DBF5D1EAE4D8800D9D95B /* Autores.swift */; };
 		D41DBF621EAE555200D9D95B /* bookmark1600.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF611EAE555200D9D95B /* bookmark1600.png */; };
 		D41DBF661EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF651EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png */; };
 		D41DBF6A1EAE575300D9D95B /* hol.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF691EAE575300D9D95B /* hol.png */; };
 		D41DBF6C1EAE59E700D9D95B /* libros2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41DBF6B1EAE59E700D9D95B /* libros2.png */; };
+		D41DBF6E1EAEAD9300D9D95B /* Autores.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41DBF6D1EAEAD9300D9D95B /* Autores.swift */; };
 		D445A3941EA7F2C5008497B5 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A3931EA7F2C5008497B5 /* DataHolder.swift */; };
 		D445A3961EA7F346008497B5 /* VCRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A3951EA7F346008497B5 /* VCRegistrar.swift */; };
 		D445A39A1EA936FF008497B5 /* VCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445A3991EA936FF008497B5 /* VCItem.swift */; };
@@ -63,11 +63,11 @@
 		BF7A692A5F6F34A116F77DB5 /* Pods_Actividad2_ios_firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Actividad2_ios_firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41DBF591EADFAB800D9D95B /* VCItem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCItem2.swift; sourceTree = "<group>"; };
 		D41DBF5B1EADFC4100D9D95B /* CVCCelda2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCCelda2.swift; sourceTree = "<group>"; };
-		D41DBF5D1EAE4D8800D9D95B /* Autores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autores.swift; sourceTree = "<group>"; };
 		D41DBF611EAE555200D9D95B /* bookmark1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bookmark1600.png; path = img/bookmark1600.png; sourceTree = SOURCE_ROOT; };
 		D41DBF651EAE55B300D9D95B /* Emojione_1F4DA-CCLicense4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Emojione_1F4DA-CCLicense4.png"; path = "img/Emojione_1F4DA-CCLicense4.png"; sourceTree = SOURCE_ROOT; };
 		D41DBF691EAE575300D9D95B /* hol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hol.png; path = img/hol.png; sourceTree = SOURCE_ROOT; };
 		D41DBF6B1EAE59E700D9D95B /* libros2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = libros2.png; path = ../img/libros2.png; sourceTree = "<group>"; };
+		D41DBF6D1EAEAD9300D9D95B /* Autores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autores.swift; sourceTree = "<group>"; };
 		D445A3931EA7F2C5008497B5 /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		D445A3951EA7F346008497B5 /* VCRegistrar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRegistrar.swift; sourceTree = "<group>"; };
 		D445A3991EA936FF008497B5 /* VCItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCItem.swift; sourceTree = "<group>"; };
@@ -161,13 +161,13 @@
 				D445A3931EA7F2C5008497B5 /* DataHolder.swift */,
 				D445A3951EA7F346008497B5 /* VCRegistrar.swift */,
 				D445A39B1EA98A2B008497B5 /* TVCCelda1.swift */,
-				D445A39D1EAA37B4008497B5 /* Libro.swift */,
 				D445A39F1EAAB518008497B5 /* LocationAdmin.swift */,
 				D45D7BF21EAB8E3200AB59B6 /* VCMapa.swift */,
 				D445A3991EA936FF008497B5 /* VCItem.swift */,
 				D41DBF591EADFAB800D9D95B /* VCItem2.swift */,
 				D41DBF5B1EADFC4100D9D95B /* CVCCelda2.swift */,
-				D41DBF5D1EAE4D8800D9D95B /* Autores.swift */,
+				D445A39D1EAA37B4008497B5 /* Libro.swift */,
+				D41DBF6D1EAEAD9300D9D95B /* Autores.swift */,
 			);
 			name = ",";
 			path = "Actividad2-ios-firebase";
@@ -509,7 +509,7 @@
 				D445A3A01EAAB518008497B5 /* LocationAdmin.swift in Sources */,
 				D41DBF5C1EADFC4100D9D95B /* CVCCelda2.swift in Sources */,
 				D445A39E1EAA37B4008497B5 /* Libro.swift in Sources */,
-				D41DBF5E1EAE4D8800D9D95B /* Autores.swift in Sources */,
+				D41DBF6E1EAEAD9300D9D95B /* Autores.swift in Sources */,
 				D445A39A1EA936FF008497B5 /* VCItem.swift in Sources */,
 				D45D7BF31EAB8E3200AB59B6 /* VCMapa.swift in Sources */,
 				D41DBF5A1EADFAB800D9D95B /* VCItem2.swift in Sources */,

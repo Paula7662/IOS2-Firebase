@@ -21,12 +21,12 @@ class VCItem2: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         DataHolder.sharedInstance.firDataBaseref.child("Autores").observe(FIRDataEventType.value, with: { (snapshot) in
             let arTemp = snapshot.value as? Array<AnyObject>
             
-            DataHolder.sharedInstance.arLibro=Array<Libro>()
+            DataHolder.sharedInstance.arAutor=Array<Autores>()
             
             for co in arTemp! as [AnyObject]{
                 
-                let libroi = Libro(valores: co as! [String:AnyObject])
-                DataHolder.sharedInstance.arLibro?.append(libroi)
+                let autoresi = Autores(valores: co as! [String:AnyObject])
+                DataHolder.sharedInstance.arAutor?.append(autoresi)
                 
             }
             
@@ -49,10 +49,10 @@ class VCItem2: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if(DataHolder.sharedInstance.arLibro==nil){
+        if(DataHolder.sharedInstance.arAutor==nil){
             return 0
         }else{
-            return (DataHolder.sharedInstance.arLibro?.count)!
+            return (DataHolder.sharedInstance.arAutor?.count)!
         }
     }
     
@@ -62,10 +62,10 @@ class VCItem2: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         let cell:CVCCelda2 = collectionView.dequeueReusableCell(withReuseIdentifier: "micelda2", for: indexPath) as!
         CVCCelda2
         
-        let libroi:Libro = DataHolder.sharedInstance.arLibro![indexPath.row]
+        let autoresi:Autores = DataHolder.sharedInstance.arAutor![indexPath.row]
         
-        cell.lblNombre?.text=libroi.sAutor
-        cell.descargarImagen(ruta: libroi.sRutaAutor!)
+        cell.lblNombre?.text=autoresi.sAutor
+        cell.descargarImagen(ruta: autoresi.sRutaAutor!)
         
  
         return cell
